@@ -1,0 +1,8 @@
+version: 0.2
+
+env:
+phases:
+  install:
+    commands:
+      - aws s3 cp cross.txt s3://selenium-grid-qa
+      
